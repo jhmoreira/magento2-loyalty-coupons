@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="page.top">
+        <block
+        class = "Moreira\CountOrdersToGetDiscount\Block\Coupons"
+        name = "customer.coupons"
+        template = "Moreira_CountOrdersToGetDiscount::global/coupons.phtml"
+        before = "-"
+        />
+        </referenceContainer>
+    </body>
+</page>
