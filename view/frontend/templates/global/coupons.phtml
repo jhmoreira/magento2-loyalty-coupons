@@ -1,0 +1,9 @@
+<?php
+$loggedin = $block->isLoggedIn();
+?>
+<?php if( $loggedin):?>
+<div class="customer_coupons" style = "background:#dff0d8; padding:10px; margin: 10px;text-align:center; border-bottom:1px solid">
+Verifique 
+<a href = "/getcoupons/customer/index" >Cupons Disponiveis</a> </a>
+</div>
+<?php endif;?>

@@ -1,0 +1,22 @@
+<?php
+$coupons = $block->getCoupons();
+?>
+
+
+<?php if(!empty($coupons)):?>
+    <div class="customer-coupons">
+        <h3>Cupom Disponivel</h3>
+        <ul>
+            <?php foreach($coupons as $coupon):?>
+                <li>
+                    <strong><?= $coupon->getData('coupon_code');?></strong>
+                    <?php if($coupon->getExpiration()):?>
+                        <small>Expira em: <?= date('d/m/Y', strtotime($coupon->getExpiration()))?> </small>
+                    <?php else:?>
+                        <small> Sem data de expiração </small> 
+                    <?php endif;?>   
+                </li>
+            <?php endforeach;?> 
+        </ul>
+    </div>
+<?php endif;?> 
