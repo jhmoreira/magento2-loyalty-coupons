@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <order_coupon>
+            <general>
+                <enabled>1</enabled>
+                <min_orders>10</min_orders>
+                <discount_value>5</discount_value>
+                <coupon_expiration_days>7</coupon_expiration_days>
+                <coupon_prefix>CUPOM-</coupon_prefix>
+            </general>
+        </order_coupon>
+    </default>
+</config>

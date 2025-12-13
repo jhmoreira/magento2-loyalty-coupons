@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="orderdiscount" translate="label" type="text" sortOrder="900" showInDefault ="1" showInWebsite ="1" showInStore ="1">
+        <resource>Moreira_CountOrdersToGetDiscount::config</resource>
+        <label>Order Discount</label>
+        <tab>sales</tab>
+            
+            <group id="settings" translate="label"  sortOrder="10" showInDefault ="1" showInWebsite ="1" showInStore ="1">
+                <label>General Settings</label>
+
+                <field id="enabled" translate="label" type="select" sortOrder="10" showInDefault ="1" showInWebsite ="1" showInStore ="1">
+                    <label>Enable Module</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+
+                <field id="order_count" translate="label" type="text" sortOrder="20" showInDefault ="1" showInWebsite ="1" showInStore ="1">
+                    <label>Minimum Orders Required</label>
+                </field>
+                <field id="discount_value" translate="label" type="text" sortOrder="30" showInDefault ="1" showInWebsite ="1" showInStore ="1">
+                    <label>Discount Value</label>
+                </field>
+                <field id="coupon_prefix" translate="label" type="text" sortOrder="50" showInDefault ="1" showInWebsite ="1" showInStore ="1">
+                    <label>Coupon Prefix</label>
+                </field>
+                <field id="coupon_expiration_days" translate="label" type="text" sortOrder="60" showInDefault ="1" showInWebsite ="1" showInStore ="1">
+                    <label>Coupon Expiration</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
