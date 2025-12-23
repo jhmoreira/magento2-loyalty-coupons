@@ -25,7 +25,9 @@ bin/magento setup:upgrade
 bin/magento setup:di:compile
 
 Acesse o painel do Magento
+
 Vá em:
+
 Stores -> Configuration -> Sales -> Order Discount
 
 Preenche as configurações do módulo
@@ -72,6 +74,9 @@ Configure the module settings according to your business rules
 This module was developed as portfolio project to demonstrate advanced Magento 2 skills, including:
 
 Observers
+
 Custom models and repositories
+
 Frontend integration
+
 Real-world business implementation
