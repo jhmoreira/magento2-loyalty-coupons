@@ -73,10 +73,10 @@ Configure the module settings according to your business rules
 
 This module was developed as portfolio project to demonstrate advanced Magento 2 skills, including:
 
-Observers
+- Observers
 
-Custom models and repositories
+- Custom models and repositories
 
-Frontend integration
+- Frontend integration
 
-Real-world business implementation
+- Real-world business implementation
