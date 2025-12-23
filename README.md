@@ -2,12 +2,12 @@
 🇧🇷 **Português** | 🇺🇸 **English**
 
 
-Módulo Magento 2 que gera automaticamente cupons de desconto para clientes com base na quantiade de pedidos concluídos.
+Módulo Magento 2 que gera automaticamente cupons de desconto para clientes com base na quantidade de pedidos concluídos.
 
 🇧🇷 **Funcionalidades**
 
 Geração automática de cupons após X pedidos finalizados
-Integração com SalesRule do Msgento
+Integração com SalesRule do Magento
 Armazenamento dos cupons em tabela customizada
 Exibição de cupons apenas para clientes logados
 Aviso global para o cliente quando algum cupom estiver disponivel para ele
