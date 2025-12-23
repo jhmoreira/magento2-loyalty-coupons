@@ -23,7 +23,7 @@ bin/magento module:enable Moreira_CountOrdersToGetDiscount
 bin/magento setup:upgrade
 
 bin/magento setup:di:compile
-
+```
 Acesse o painel do Magento
 
 Vá em:
@@ -54,13 +54,13 @@ Copy the module to:
 app/code/Moreira/CountOrdersToGetDiscount
 
 Run the following commands
-
+```bash
 bin/magento module:enable Moreira_CountOrdersToGetDiscount
 
 bin/magento setup:upgrade
 
 bin/magento setup:di:compile
-
+```
 Access the Magento Admin Panel
 
 Go to:
