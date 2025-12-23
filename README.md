@@ -6,11 +6,11 @@ Módulo Magento 2 que gera automaticamente cupons de desconto para clientes com 
 
 🇧🇷 **Funcionalidades**
 
-Geração automática de cupons após X pedidos finalizados
-Integração com SalesRule do Magento
-Armazenamento dos cupons em tabela customizada
-Exibição de cupons apenas para clientes logados
-Aviso global para o cliente quando algum cupom estiver disponivel para ele
+- Geração automática de cupons após X pedidos finalizados
+- Integração com SalesRule do Magento
+- Armazenamento dos cupons em tabela customizada
+- Exibição de cupons apenas para clientes logados
+- Aviso global para o cliente quando algum cupom estiver disponivel para ele
 
 🇧🇷 **Utilização**
 
@@ -42,11 +42,11 @@ Magento 2 module that automatically generates discount coupons for customers bas
 
 🇺🇸 **Features**
 
-Automatic coupon generation after completed orders
-Integration with Magento SalesRule
-Coupons stored in a custom database table
-Coupons displayed only for logged-in customers
-Global notification informing customers when a coupon is available
+- Automatic coupon generation after completed orders
+- Integration with Magento SalesRule
+- Coupons stored in a custom database table
+- Coupons displayed only for logged-in customers
+- Global notification informing customers when a coupon is available
 
 🇺🇸 **Usage**
 
