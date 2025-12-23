@@ -17,7 +17,7 @@ Módulo Magento 2 que gera automaticamente cupons de desconto para clientes com 
 Copie o módulo para app/code/Moreira/CountOrdersToGetDiscount
 
 Rode os seguintes comandos
-
+```bash
 bin/magento module:enable Moreira_CountOrdersToGetDiscount
 
 bin/magento setup:upgrade
