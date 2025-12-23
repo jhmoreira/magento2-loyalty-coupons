@@ -17,6 +17,7 @@ Aviso global para o cliente quando algum cupom estiver disponivel para ele
 Copie o módulo para app/code/Moreira/CountOrdersToGetDiscount
 
 Rode os seguintes comandos
+
 bin/magento module:enable Moreira_CountOrdersToGetDiscount
 bin/magento setup:upgrade
 bin/magento setup:di:compile
