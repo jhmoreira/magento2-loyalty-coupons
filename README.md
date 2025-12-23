@@ -1,5 +1,7 @@
 # Count Orders To Get Discount - Módulo Magento 2
 🇧🇷 **Português** | 🇺🇸 **English**
+
+
 Módulo Magento 2 que gera automaticamente cupons de desconto para clientes com base na quantiade de pedidos concluídos.
 
 ## Funcionalidades
